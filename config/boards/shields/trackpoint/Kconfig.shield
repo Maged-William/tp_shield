@@ -1,0 +1,5 @@
+# Trackpoint Shield - Shield Config
+# SPDX-License-Identifier: MIT
+
+config SHIELD_TRACKPOINT
+	def_bool $(shields_list_contains,trackpoint)

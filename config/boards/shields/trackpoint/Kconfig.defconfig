@@ -1,0 +1,9 @@
+# Trackpoint Shield - Default Config
+# SPDX-License-Identifier: MIT
+
+if SHIELD_TRACKPOINT
+
+config ZMK_KEYBOARD_NAME
+	default "Trackpoint"
+
+endif

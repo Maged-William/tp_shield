@@ -1,0 +1,9 @@
+file_format: "1"
+id: trackpoint
+name: Trackpoint
+type: shield
+url: https://github.com/zmkfirmware/zmk
+requires: [pro_micro]
+features:
+  - keys
+  - pointing
