@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <behaviors/mouse_keys.dtsi>
+#include <dt-bindings/zmk/mouse.h>
 
 / {
     keymap {
@@ -7,10 +8,19 @@
 
         default_layer {
             bindings = <
-&kp A   &kp B   &kp C    &none  &none  &none   &none  &none  &none   &none  &none  &none
-&none   &none   &none    &none  &none  &none   &none  &none  &none   &none  &none  &none
-&none   &none   &none    &none  &none  &none   &none  &none  &none   &none  &none  &none
-&none   &none   &none    &none  &none  &none   &none  &none  &none   &none  &none  &none
+&kp A   &kp A   &kp A    &kp A  &kp A  &kp A   &kp A  &kp A  &kp A   &kp A  &kp A  &kp A
+&kp A   &kp A   &kp A    &kp A  &kp A  &kp A   &kp A  &kp A  &kp A   &kp A  &kp A  &kp A
+&kp A   &kp A   &kp A    &kp A  &kp A  &kp A   &kp A  &kp A  &kp A   &kp A  &kp A  &kp A
+&kp A   &kp A   &kp A    &kp A  &kp A  &kp A   &kp A  &kp A  &kp A   &kp A  &kp A  &kp A
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+&kp C     &kp C     &kp C     &kp C &kp C &kp C  &kp C &kp C &kp C  &kp C &kp C &kp C
+&kp C     &kp C     &kp C     &kp C &kp C &kp C  &kp C &kp C &kp C  &kp C &kp C &kp C
+&kp C     &kp C     &kp C     &kp C &kp C &kp C  &kp C &kp C &kp C  &kp C &kp C &kp C
+&kp C     &kp C     &kp C     &kp C &kp C &kp C  &kp C &kp C &kp C  &kp C &kp C &kp C
             >;
         };
     };
