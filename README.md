@@ -2,6 +2,8 @@
 
 ZMK shield for **NiceNano V2** (Supermini nRF52840) that adds an unmarked Chinese PS/2 trackpoint module. Requires a custom fork of [Kim's PS/2 driver](https://github.com/infused-kim/kb_zmk_ps2_mouse_trackpoint_driver) that skips the standard init handshake.
 
+![image of the trackpoint](trackpoint.png)
+
 ## Background
 
 This trackpoint IC is a fixed-function motion encoder that behaves differently from standard PS/2 devices:
@@ -110,3 +112,11 @@ Or push to GitHub and let the CI workflow in `.github/workflows/build.yml` handl
   - Possible mismatch between the GPIO bit-banging timing and this IC's clock frequency.
   
   Investigation is ongoing — the `crunch-ps2decoder` reference implementation in `Specs/` uses hardware USART in sync-slave mode to avoid exactly these timing issues, but the nRF52840 lacks a USART with synchronous slave capability.
+
+
+
+## Special Thanks
+
+* [@infused-kim](https://github.com/infused-kim)
+* [@db7](https://github.com/db7)
+* [@badjeff](https://github.com/badjeff)
