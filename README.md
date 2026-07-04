@@ -1,5 +1,7 @@
 # tp_shield — ZMK Shield for an Obscure USB Trackpoint
 
+[The module used with this shield can be found here](https://github.com/Maged-William/kb_zmk_ps2_mouse_trackpoint_driver/tree/stream-only-mode)
+
 ZMK shield for **NiceNano V2** (Supermini nRF52840) that adds an unmarked Chinese PS/2 trackpoint module. Requires a custom fork of [Kim's PS/2 driver](https://github.com/infused-kim/kb_zmk_ps2_mouse_trackpoint_driver) that skips the standard init handshake.
 
 ![image of the trackpoint](trackpoint.png)
