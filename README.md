@@ -20,9 +20,9 @@ Because this IC never responds to host commands, **Kim's stock ZMK PS/2 driver h
 
 | NiceNano | Trackpoint |
 |----------|------------|
+| GND      | GND        |
 | P0.06    | CLK        |
 | P0.08    | DAT        |
-| GND      | GND        |
 | —        | RST (float)|
 | 3.3V     | VCC        |
 
