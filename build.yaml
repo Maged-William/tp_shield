@@ -1,5 +1,5 @@
 # This file generates GitHub Actions build matrix.
 # For Docker-based local builds, use build.sh instead.
 include:
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: trackpoint
